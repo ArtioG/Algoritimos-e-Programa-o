@@ -1,0 +1,23 @@
+algoritmo MediaFinal
+// Síntese
+//  Objetivo:Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a
+//média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma
+//dos pesos portanto é 11), Caucular a sua media  
+//  Entrada : A e B
+//  Saída   : Media Final
+
+
+principal
+	// Declarações
+real A,B;
+//Intruções
+escreval("Digite as duas notas para caulcular a media.");
+escreva("Nota com peso 3,5:");
+leia(A);
+escreva("Nota com peso 7,5:");
+leia(B);
+escreva("Sua media é igual"+(A*3.5+B*7.5)/11+".");
+fimPrincipal
+
+
+
